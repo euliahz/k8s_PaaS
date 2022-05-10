@@ -93,6 +93,10 @@ spec:
         args:
         - server
         - /data
+        - '--console-address'
+        - ':9000'
+        - '--address'
+        - ':9090'        
         env:
         - name: MINIO_ACCESS_KEY
           value: admin
