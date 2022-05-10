@@ -323,7 +323,7 @@ aws_secret_access_key=admin123
 ~]# kubectl config set-credentials cluster-admin --client-certificate=./admin.pem --client-key=./admin-key.pem --embed-certs=true --kubeconfig=config
 ~]# kubectl config set-context myk8s-context --cluster=myk8s --user=cluster-admin --kubeconfig=config
 ~]# kubectl config use-context myk8s-context --kubeconfig=config
-kubectl create clusterrolebinding myk8s-admin --clusterrole=cluster-admin --user=cluster-admin
+~]# kubectl create clusterrolebinding myk8s-admin --clusterrole=cluster-admin --user=cluster-admin
 ~]# cd /root/.kube/
 .kube]# cp /root/config .
 .kube]# kubectl config view
