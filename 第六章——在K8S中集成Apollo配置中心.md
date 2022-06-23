@@ -1029,7 +1029,7 @@ apollo-portal]# rm -f scripts/shutdown.sh
 
 ~~~
 # 11机器，数据库初始化：
-~]# wget https://raw.githubusercontent.com/ctripcorp/apollo/master/scripts/apollo-on-kubernetes/db/portal-db/apolloportaldb.sql -O apolloportal.sql
+~]# wget https://raw.githubusercontent.com/apolloconfig/apollo/master/scripts/sql/apolloportaldb.sql -O apolloportal.sql
 ~]# ll
 ~~~
 
