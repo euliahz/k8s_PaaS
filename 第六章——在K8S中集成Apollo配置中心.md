@@ -1774,8 +1774,8 @@ ApolloConfigProdDB]> grant INSERT,DELETE,UPDATE,SELECT on ApolloConfigProdDB.* t
 none)]> use ApolloPortalDB;
 ApolloPortalDB]> show tables;
 ApolloPortalDB]> select * from ServerConfig\G
-ApolloPortalDB]> update ServerConfig set Value='fat,pro' where Id=1;
-ApolloPortalDB]> select * from Serverconfig\G
+ApolloPortalDB]> update ServerConfig set Value='dev,fat,uat,pro' where Id=1;
+ApolloPortalDB]> select * from ServerConfig\G
 ~~~~
 
 改后
